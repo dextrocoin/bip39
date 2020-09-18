@@ -31,6 +31,17 @@ libs.bitcoin.networks.clam = {
   wif: 0x85
 };
 
+libs.bitcoin.networks.peps = {
+  messagePrefix: 'unused',
+  bip32: {
+    public: 0x042e2171,
+    private: 0x0825392F
+  },
+  pubKeyHash: 0x37,
+  scriptHash: 0x5C,
+  wif: 0x75
+};
+
 libs.bitcoin.networks.crown = {
   messagePrefix: 'unused',
   bip32: {

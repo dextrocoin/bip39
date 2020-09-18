@@ -2947,6 +2947,13 @@
             },
         },
         {
+            name: "PEPS - Peps Coin",
+            onSelect: function() {
+                network = libs.bitcoin.networks.peps;
+                setHdCoin(188);
+            },
+        },        
+        {
             name: "PHR - Phore",
             onSelect: function() {
                 network = libs.bitcoin.networks.phore;
