@@ -1,3 +1,4 @@
 node_modules
 bip39-standalone.html
 .DS_Store
+tmp/signature.txt

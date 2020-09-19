@@ -20,6 +20,17 @@ libs.bitcoin.networks.shadowtn = {
   wif: 0xff
 };
 
+libs.bitcoin.networks.zcr = {
+  messagePrefix: 'unused',
+  bip32: {
+    public: 0x04B24746,
+    private: 0x04B24308
+  },
+  pubKeyHash: 0x8E,
+  scriptHash: 0x91,
+  wif: 0x50
+};
+
 libs.bitcoin.networks.clam = {
   messagePrefix: 'unused',
   bip32: {

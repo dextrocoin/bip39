@@ -3398,6 +3398,13 @@
             },
         },
         {
+            name: "ZCR - ZCore",
+            onSelect: function() {
+                network = libs.bitcoin.networks.zcr;
+                setHdCoin(428);
+            },
+        },        
+        {
             name: "ZCL - Zclassic",
             onSelect: function() {
                 network = libs.bitcoin.networks.zclassic;
