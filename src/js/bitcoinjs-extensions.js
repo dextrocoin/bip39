@@ -20,6 +20,29 @@ libs.bitcoin.networks.shadowtn = {
   wif: 0xff
 };
 
+libs.bitcoin.networks.bab = {
+  messagePrefix: 'unused',
+  bip32: {
+    public: 0x022D2533,
+    private: 0x0221312B
+  },
+  pubKeyHash: 0x19,
+  scriptHash: 0x1A,
+  wif: 0x99
+};
+
+
+libs.bitcoin.networks.bbk = {
+  messagePrefix: 'unused',
+  bip32: {
+    public: 0x022D2533,
+    private: 0x0221312B
+  },
+  pubKeyHash: 0x19,
+  scriptHash: 0x55,
+  wif: 0x6B
+};
+
 libs.bitcoin.networks.zcr = {
   messagePrefix: 'unused',
   bip32: {

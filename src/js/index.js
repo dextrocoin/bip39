@@ -2112,6 +2112,13 @@
             },
         },
         {
+            name: "BAB - Basecoin",
+            onSelect: function() {
+                network = libs.bitcoin.networks.bab;
+                setHdCoin(119);
+            },
+        },         
+        {
             name: "BOLI - Bolivarcoin",
             onSelect: function() {
                 network = libs.bitcoin.networks.bolivarcoin;
@@ -2146,6 +2153,13 @@
                 setHdCoin(73);
             },
         },
+        {
+            name: "BBK - Bitblocks",
+            onSelect: function() {
+                network = libs.bitcoin.networks.bbk;
+                setHdCoin(119);
+            },
+        },        
         {
             name: "BLK - BlackCoin",
             onSelect: function() {
