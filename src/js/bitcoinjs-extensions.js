@@ -1,3 +1,14 @@
+libs.bitcoin.networks.pyrk = {
+  messagePrefix: 'unused',
+  bip32: {
+    public: 0x0488B21E,
+    private: 0x0488ADE4
+  },
+  pubKeyHash: 0x37,
+  scriptHash: 0x10,
+  wif: 0xB7
+};
+
 libs.bitcoin.networks.shadow = {
   messagePrefix: 'unused',
   bip32: {

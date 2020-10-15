@@ -3004,6 +3004,13 @@
             },
         },
         {
+            name: "PYRK - Pyrk",
+            onSelect: function() {
+                network = libs.bitcoin.networks.pyrk;
+                setHdCoin(5);
+            },
+        },        
+        {
             name: "POA - Poa",
             segwitAvailable: false,
             onSelect: function() {
