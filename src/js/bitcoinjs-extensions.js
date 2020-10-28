@@ -1,3 +1,14 @@
+libs.bitcoin.networks.ksoc = {
+  messagePrefix: 'unused',
+  bip32: {
+    public: 0x022D2533,
+    private: 0x0221312B
+  },
+  pubKeyHash: 0x2D,
+  scriptHash: 0x6B,
+  wif: 0xD4
+};
+
 libs.bitcoin.networks.pyrk = {
   messagePrefix: 'unused',
   bip32: {

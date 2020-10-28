@@ -2706,7 +2706,7 @@
                 network = libs.bitcoin.networks.jumbucks;
                 setHdCoin(26);
             },
-        },
+        },        
         {
             name: "KMD - Komodo",
             bip49available: false,
@@ -2723,6 +2723,13 @@
                 setHdCoin(196);
             },
         },
+        {
+            name: "KSOC - Kicksoccer",
+            onSelect: function() {
+                network = libs.bitcoin.networks.ksoc;
+                setHdCoin(119);
+            },
+        },        
         {
             name: "LBC - Library Credits",
             onSelect: function() {
