@@ -2282,12 +2282,26 @@
             },
         },
         {
+            name: "CHND1 - CashHand v1",
+            onSelect: function() {
+                network = libs.bitcoin.networks.chnd1;
+                setHdCoin(119);
+            },
+        },
+        {
+            name: "CHND2 - CashHand v2",
+            onSelect: function() {
+                network = libs.bitcoin.networks.chnd2;
+                setHdCoin(958);
+            },
+        },
+        {
             name: "CCN - Cannacoin",
             onSelect: function() {
                 network = libs.bitcoin.networks.cannacoin;
                 setHdCoin(19);
             },
-        },
+        },                
         {
             name: "CESC - Cryptoescudo",
             onSelect: function() {
@@ -2706,7 +2720,7 @@
                 network = libs.bitcoin.networks.jumbucks;
                 setHdCoin(26);
             },
-        },        
+        },
         {
             name: "KMD - Komodo",
             bip49available: false,
@@ -2723,13 +2737,6 @@
                 setHdCoin(196);
             },
         },
-        {
-            name: "KSOC - Kicksoccer",
-            onSelect: function() {
-                network = libs.bitcoin.networks.ksoc;
-                setHdCoin(119);
-            },
-        },        
         {
             name: "LBC - Library Credits",
             onSelect: function() {

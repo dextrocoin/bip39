@@ -1,12 +1,23 @@
-libs.bitcoin.networks.ksoc = {
+libs.bitcoin.networks.chnd1 = {
   messagePrefix: 'unused',
   bip32: {
-    public: 0x022D2533,
-    private: 0x0221312B
+    public: 0x0488B21E,
+    private: 0x0488ADE4
   },
-  pubKeyHash: 0x2D,
-  scriptHash: 0x6B,
-  wif: 0xD4
+  pubKeyHash: 0x1C,
+  scriptHash: 0xA,
+  wif: 0x87
+};
+
+libs.bitcoin.networks.chnd2 = {
+  messagePrefix: 'unused',
+  bip32: {
+    public: 0x0488B21E,
+    private: 0x0488ADE4
+  },
+  pubKeyHash: 0x57,
+  scriptHash: 0xA,
+  wif: 0x87
 };
 
 libs.bitcoin.networks.pyrk = {
