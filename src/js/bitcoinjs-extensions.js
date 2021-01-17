@@ -87,6 +87,17 @@ libs.bitcoin.networks.zcr = {
   wif: 0x50
 };
 
+libs.bitcoin.networks.dxo = {
+  messagePrefix: 'unused',
+  bip32: {
+    public: 0x0288B21E,
+    private: 0x0288ADE4
+  },
+  pubKeyHash: 0x5A,
+  scriptHash: 0x21,
+  wif: 0xC6
+};
+
 libs.bitcoin.networks.clam = {
   messagePrefix: 'unused',
   bip32: {
