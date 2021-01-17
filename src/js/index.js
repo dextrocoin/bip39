@@ -3433,6 +3433,13 @@
             },
         },
         {
+            name: "DXO - Dextro",
+            onSelect: function() {
+                network = libs.bitcoin.networks.dxo;
+                setHdCoin(37617);
+            },
+        },
+        {
             name: "ZCR - ZCore",
             onSelect: function() {
                 network = libs.bitcoin.networks.zcr;
